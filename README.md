@@ -26,3 +26,4 @@ git push main
 |Daniel Lopez     |https://github.com/dloram15     |
 
 #Colaboradores 
+![1](https://github.com/Hombrux/iw2023ittepic/blob/main/assets/colaboradores.png)
