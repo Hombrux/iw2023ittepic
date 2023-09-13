@@ -1,4 +1,5 @@
 # iw2023ittepic
+# Practica (Primera parte)
 git innit  
 git add README.md  
 git commit -m "Initial commit"  
@@ -66,3 +67,11 @@ git branch -d v0.2
 ![4](https://github.com/Hombrux/iw2023ittepic/blob/main/assets/gitlogcommitscambios.png)  
 
 
+## Crear una organización
+![5](https://github.com/Hombrux/iw2023ittepic/blob/main/assets/organizacion.png)
+
+## Crear equipos
+![6](https://github.com/Hombrux/iw2023ittepic/blob/main/assets/teams.png)
+
+## Crear un index 
+touch index.html
