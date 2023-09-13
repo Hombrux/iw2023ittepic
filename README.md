@@ -33,34 +33,34 @@ git push main
 ### Crear Rama
 git checkout -b v0.2
 ### Añadir archivo
-touch 2.txt
-git push origin v0.2
+touch 2.txt  
+git push origin v0.2  
 
 ### Merge Directo 
 git checkout main
 git merge v0.2
 
 ### Merge con conflicto
-git checkout main
--Poner 'Hola' en 1.txt
-git commit -m "Hola"
-git checkout v0.2
--Poner 'Adios' en 1.txt
-git commit -m "Adios"
-git checkout main
-git merge v0.2
-![2](https://github.com/Hombrux/iw2023ittepic/blob/main/assets/conflicomerge.png)
+git checkout main  
+-Poner 'Hola' en 1.txt  
+git commit -m "Hola"  
+git checkout v0.2  
+-Poner 'Adios' en 1.txt  
+git commit -m "Adios"  
+git checkout main  
+git merge v0.2  
+![2](https://github.com/Hombrux/iw2023ittepic/blob/main/assets/conflicomerge.png)  
 
-Listado de ramas con merge y sin merge
-![3](https://github.com/Hombrux/iw2023ittepic/blob/main/assets/listadoderamasmerge.png)
-Arreglar el conflicto 
-git commit -m "Solucion de conflicto"
+Listado de ramas con merge y sin merge  
+![3](https://github.com/Hombrux/iw2023ittepic/blob/main/assets/listadoderamasmerge.png)  
+Arreglar el conflicto  
+git commit -m "Solucion de conflicto"  
 
 ### Borrar rama 
-git tag v0.2
-git branch -d v0.2
+git tag v0.2  
+git branch -d v0.2  
 
 ### Listado de cambios 
-![4](https://github.com/Hombrux/iw2023ittepic/blob/main/assets/gitlogcommitscambios.png)
+![4](https://github.com/Hombrux/iw2023ittepic/blob/main/assets/gitlogcommitscambios.png)  
 
 
