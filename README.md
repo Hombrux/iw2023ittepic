@@ -1,6 +1,6 @@
 # iw2023ittepic
-git innit 
-git add README.md
+git innit  
+git add README.md  
 git commit -m "Initial commit"
 git push origin master 
 
