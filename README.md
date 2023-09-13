@@ -1,19 +1,21 @@
 # iw2023ittepic
 git innit  
 git add README.md  
-git commit -m "Initial commit"
+git commit -m "Initial commit"  
 git push origin master 
 
-touch privado.txt
-mkdir privada
+
+touch privado.txt  
+mkdir privada  
 touch .gitignore
 
-touch 1.txt
-git tag v1.0
-git add 1.txt
-git add README.txt
-git add .gitignore
-git commit -m "Creacion del TAG |.gitignore| 1.txt"
+
+touch 1.txt  
+git tag v1.0  
+git add 1.txt  
+git add README.txt  
+git add .gitignore  
+git commit -m "Creacion del TAG |.gitignore| 1.txt"  
 git push main 
 
 ## Creacion de Tabla
@@ -37,7 +39,7 @@ touch 2.txt
 git push origin v0.2  
 
 ### Merge Directo 
-git checkout main
+git checkout main  
 git merge v0.2
 
 ### Merge con conflicto
